@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaathiki – Knowing or Belonging to Stories</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+    <style>
+        /* Page-wide Animation */
+        @keyframes pageFadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+            animation: pageFadeIn 2s ease-in-out; /* Full page fade-in effect */
+        }
+
+        header {
+            background-color: #6a1b9a;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 2rem;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        section {
+            padding: 40px 0;
+        }
+
+        h2 {
+            color: #6a1b9a;
+            font-size: 30px;
+            font-weight: bold;
+            opacity: 0;
+            animation: fadeInUp 1s forwards;
+        }
+
+        h3 {
+            font-size: 24px;
+            margin-top: 30px;
+            color: #6a1b9a;
+            opacity: 0;
+            animation: fadeInUp 1.5s forwards;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.8;
+            margin-bottom: 20px;
+            text-align: justify;
+            opacity: 0;
+            animation: fadeInUp 2s forwards;
+        }
+
+        .objectives ul,
+        .activities ul {
+            list-style-type: disc;
+            padding-left: 40px;
+            opacity: 0;
+            animation: fadeInUp 2s forwards;
+        }
+
+        .objectives li,
+        .activities li {
+            font-size: 16px;
+        }
+
+        .cta {
+            background-color: #6a1b9a;
+            color: white;
+            padding: 40px;
+            text-align: center;
+            margin-top: 40px;
+            opacity: 0;
+            animation: fadeInUp 2s forwards;
+        }
+
+        .cta ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .cta li {
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+
+        .impact {
+            background-color: #f3e5f5;
+            padding: 30px;
+            border-radius: 10px;
+            opacity: 0;
+            animation: fadeInUp 2s forwards;
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 30px;
+            opacity: 0;
+            animation: fadeInUp 2s forwards;
+        }
+
+        .gallery img {
+            width: 30%;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #6a1b9a;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 14px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* Animation Definitions */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Kaathiki – Knowing or Belonging to Stories</h1>
+    </header>
+
+    <!-- Overview Section -->
+    <section>
+        <div class="container">
+            <h2>Overview</h2>
+            <p>Kaathiki is an initiative by Dnyansangam Foundation that aims to discover, nurture, and celebrate storytelling and artistic expression. Many students and young individuals, especially from underprivileged backgrounds, have immense creative potential but lack opportunities to explore fields like storytelling, poetry, music, theater, dance, and literature. Due to financial and social barriers, their talents often go unnoticed, leaving them without a platform to express themselves.</p>
+            <p>Kaathiki provides that missing stage, offering a safe space for self-expression through storytelling circles, open mic events, cultural performances, and creative workshops. Through monthly events, mentorship programs, and training sessions, this initiative empowers individuals to find their voice, share their narratives, and belong to the world of stories.</p>
+        </div>
+    </section>
+
+    <!-- Objectives Section -->
+    <section>
+        <div class="container">
+            <h2>Objectives</h2>
+            <ul class="objectives">
+                <li>Discover hidden talent in storytelling, performing arts, and creative expression.</li>
+                <li>Provide a platform for individuals to share their stories, poems, songs, and performances.</li>
+                <li>Build confidence in students and young artists by encouraging stage presence.</li>
+                <li>Preserve and promote culture through folk storytelling, traditional art forms, and literature.</li>
+                <li>Create an inclusive creative space where people from different backgrounds can come together and express themselves.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Key Activities Section -->
+    <section>
+        <div class="container">
+            <h2>Key Activities</h2>
+            <div class="activities">
+                <h3>1. Monthly Open Mic & Storytelling Events</h3>
+                <p>Organizing open mic nights where participants can share their stories, poetry, music, and performances. Encouraging students and community members to speak, listen, and connect through stories. Hosting theme-based storytelling sessions where participants share personal narratives or folklore.</p>
+
+                <h3>2. Workshops & Training Sessions</h3>
+                <p>Conducting storytelling workshops to teach the art of narration, voice modulation, and emotional engagement. Organizing poetry and creative writing sessions to help young writers refine their skills. Providing performance training in theater, dance, and music, with expert guidance.</p>
+
+                <h3>3. Cultural & Literary Celebrations</h3>
+                <p>Honoring local and folk storytelling traditions, ensuring cultural heritage is preserved. Hosting literature festivals where students and emerging writers can showcase their works. Collaborating with renowned artists, writers, and performers for guest sessions and mentorship.</p>
+
+                <h3>4. Confidence Building & Public Speaking</h3>
+                <p>Helping participants overcome stage fear and develop public speaking skills. Encouraging self-expression, creativity, and leadership through interactive performances. Creating peer support groups where students can collaborate and refine their artistic skills together.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impact Section -->
+    <section>
+        <div class="container impact">
+            <h2>Impact & Achievements</h2>
+            <ul>
+                <li>✅ Empowered individuals to perform in front of live audiences, building self-confidence.</li>
+                <li>✅ Discovered unique talents and provided a platform for further artistic growth.</li>
+                <li>✅ Connected communities through storytelling, strengthening cultural identity.</li>
+                <li>✅ Inspired students to take up creative careers, expanding their opportunities.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Gallery Section (Optional) -->
+    <section>
+        <div class="container gallery">
+            <img src="image1.jpg" alt="Storytelling Event">
+            <img src="image2.jpg" alt="Poetry Recitation">
+            <img src="image3.jpg" alt="Music Performance">
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="cta">
+        <h2>How You Can Get Involved</h2>
+        <ul>
+            <li>📌 Participate in Open Mic Events – Share your story, poem, or performance.</li>
+            <li>📌 Mentor Young Artists – Help students refine their skills in writing, performing arts, or storytelling.</li>
+            <li>📌 Collaborate with Us – Partner with Kaathiki to organize cultural events and creative sessions.</li>
+            <li>📌 Support the Initiative – Donate resources for artistic training and event organization.</li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p><center>&copy; 2025 Dnyansangam Foundation | All Rights Reserved</center></p>
+    </footer>
+
+    <!-- Bootstrap JS and Dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

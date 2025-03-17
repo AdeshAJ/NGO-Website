@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santulan – Balancing Minds, Empowering Lives</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+    <style>
+        /* Page-wide Animation */
+        @keyframes pageFadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+            animation: pageFadeIn 2s ease-in-out; /* Full page fade-in effect */
+        }
+
+        header {
+            background-color: #17a2b8;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 2rem;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        section {
+            padding: 40px 0;
+        }
+
+        h2 {
+            color: #17a2b8;
+            font-size: 30px;
+            font-weight: bold;
+            opacity: 0;
+            animation: fadeInUp 1s forwards;
+        }
+
+        h3 {
+            font-size: 24px;
+            margin-top: 30px;
+            color: #17a2b8;
+            opacity: 0;
+            animation: fadeInUp 1.5s forwards;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.8;
+            margin-bottom: 20px;
+            text-align: justify;
+            opacity: 0;
+            animation: fadeInUp 2s forwards;
+        }
+
+        .objectives ul,
+        .activities ul {
+            list-style-type: disc;
+            padding-left: 40px;
+            opacity: 0;
+            animation: fadeInUp 2s forwards;
+        }
+
+        .objectives li,
+        .activities li {
+            font-size: 16px;
+        }
+
+        .cta {
+            background-color: #17a2b8;
+            color: white;
+            padding: 40px;
+            text-align: center;
+            margin-top: 40px;
+            opacity: 0;
+            animation: fadeInUp 2s forwards;
+        }
+
+        .cta ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .cta li {
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+
+        .impact {
+            background-color: #eaf7f9;
+            padding: 30px;
+            border-radius: 10px;
+            opacity: 0;
+            animation: fadeInUp 2s forwards;
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 30px;
+            opacity: 0;
+            animation: fadeInUp 2s forwards;
+        }
+
+        .gallery img {
+            width: 30%;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #17a2b8;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 14px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* Animation Definitions */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Santulan – Balancing Minds, Empowering Lives</h1>
+    </header>
+
+    <!-- Overview Section -->
+    <section>
+        <div class="container">
+            <h2>Overview</h2>
+            <p>Mental well-being is just as important as physical health, yet it remains one of the most overlooked aspects of education and personal development, especially in underprivileged communities. Many children, mentors, and even community members face emotional struggles, stress, and anxiety, but they lack access to psychological support and guidance. Recognizing this urgent need, Dnyansangam Foundation launched Santulan, a mental health initiative dedicated to promoting emotional balance and well-being among students, mentors, and community members.</p>
+            <p>Santulan, meaning "Balance," aims to create a safe and supportive environment where individuals can express themselves, overcome emotional challenges, and build resilience. The program offers counseling, stress management workshops, emotional intelligence training, and awareness campaigns to ensure that mental health is prioritized and addressed effectively.</p>
+        </div>
+    </section>
+
+    <!-- Objectives Section -->
+    <section>
+        <div class="container">
+            <h2>Objectives</h2>
+            <ul class="objectives">
+                <li>Provide psychological support to students and mentors through expert counseling.</li>
+                <li>Create awareness about mental health issues, emotional well-being, and self-care practices.</li>
+                <li>Develop coping mechanisms to manage stress, anxiety, and personal struggles.</li>
+                <li>Encourage emotional expression through storytelling, group discussions, and creative arts.</li>
+                <li>Foster a community of support where individuals feel heard, valued, and empowered.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Key Activities Section -->
+    <section>
+        <div class="container">
+            <h2>Key Activities</h2>
+            <div class="activities">
+                <h3>1. Free Psychological Counseling Services</h3>
+                <p>Collaborating with psychology experts, counselors, and universities to provide one-on-one and group counseling sessions. Addressing issues such as anger management, emotional distress, academic pressure, family problems, and self-esteem issues. Offering special counseling support for mentors and volunteers, ensuring their emotional well-being as they support students.</p>
+
+                <h3>2. Mental Health Awareness Workshops</h3>
+                <p>Organizing interactive sessions on emotional intelligence, mindfulness, and self-care techniques. Conducting workshops on stress management, handling failure, and positive thinking. Encouraging open conversations about mental health to break societal stigmas.</p>
+
+                <h3>3. Expressive Therapy Through Art & Storytelling</h3>
+                <p>Using art, music, and storytelling as therapeutic tools to help students express their emotions. Organizing creative activities like painting, poetry, journaling, and theater to aid emotional healing. Conducting group discussions and experience-sharing circles to create a sense of belonging among participants.</p>
+
+                <h3>4. Peer Support & Community Engagement</h3>
+                <p>Establishing student and mentor support groups where individuals can share their challenges and receive guidance. Encouraging mentors to actively check on students’ mental well-being through regular interactions. Providing training to teachers, parents, and mentors on identifying early signs of mental distress in children and young adults.</p>
+
+                <h3>5. Yoga, Meditation, and Relaxation Techniques</h3>
+                <p>Introducing simple mindfulness exercises to improve focus and emotional stability. Conducting yoga and guided meditation sessions to help individuals deal with stress. Promoting a holistic approach to mental well-being by integrating physical and mental wellness activities.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impact Section -->
+    <section>
+        <div class="container impact">
+            <h2>Impact & Achievements</h2>
+            <ul>
+                <li>✅ Better emotional awareness and self-confidence among students.</li>
+                <li>✅ Reduction in dropout rates by addressing students' psychological challenges.</li>
+                <li>✅ A more supportive and understanding mentor-student relationship.</li>
+                <li>✅ Increased mental health awareness in underprivileged communities.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Gallery Section (Optional) -->
+    <section>
+        <div class="container gallery">
+            <img src="image1.jpg" alt="Counseling Session">
+            <img src="image2.jpg" alt="Mental Health Workshop">
+            <img src="image3.jpg" alt="Yoga Session">
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="cta">
+        <h2>How You Can Get Involved</h2>
+        <ul>
+            <li>📌 Attend a Workshop – Learn techniques to improve mental well-being.</li>
+            <li>📌 Seek Counseling Support – Connect with mental health professionals for guidance.</li>
+            <li>📌 Become a Volunteer – Help in organizing sessions and spreading awareness.</li>
+            <li>📌 Support the Initiative – Donate to provide mental health resources for students.</li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p><center>&copy; 2025 Dnyansangam Foundation | All Rights Reserved</center></p>
+    </footer>
+
+    <!-- Bootstrap JS and Dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

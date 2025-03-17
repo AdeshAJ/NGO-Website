@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drushtivishwa – Empowering Specially-Abled Students</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+    <style>
+        /* Page-wide Animation */
+        @keyframes pageFadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+            animation: pageFadeIn 2s ease-in-out; /* Full page fade-in effect */
+        }
+
+        header {
+            background-color: #0047AB;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 2rem;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        section {
+            padding: 40px 0;
+        }
+
+        h2 {
+            color: #0047AB;
+            font-size: 30px;
+            font-weight: bold;
+            opacity: 0;
+            animation: fadeInUp 1s forwards;
+        }
+
+        h3 {
+            font-size: 24px;
+            margin-top: 30px;
+            color: #0047AB;
+            opacity: 0;
+            animation: fadeInUp 1.5s forwards;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.8;
+            margin-bottom: 20px;
+            text-align: justify;
+            opacity: 0;
+            animation: fadeInUp 2s forwards;
+        }
+
+        .objectives ul,
+        .activities ul {
+            list-style-type: disc;
+            padding-left: 40px;
+            opacity: 0;
+            animation: fadeInUp 2s forwards;
+        }
+
+        .objectives li,
+        .activities li {
+            font-size: 16px;
+        }
+
+        .cta {
+            background-color: #0047AB;
+            color: white;
+            padding: 40px;
+            text-align: center;
+            margin-top: 40px;
+            opacity: 0;
+            animation: fadeInUp 2s forwards;
+        }
+
+        .cta ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .cta li {
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+
+        .impact {
+            background-color: #e3f2fd;
+            padding: 30px;
+            border-radius: 10px;
+            opacity: 0;
+            animation: fadeInUp 2s forwards;
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 30px;
+            opacity: 0;
+            animation: fadeInUp 2s forwards;
+        }
+
+        .gallery img {
+            width: 30%;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #0047AB;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 14px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* Animation Definitions */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Drushtivishwa (Vision World) – Empowering Specially-Abled Students</h1>
+    </header>
+
+    <!-- Overview Section -->
+    <section>
+        <div class="container">
+            <h2>Overview</h2>
+            <p>Drushtivishwa is an inclusive education and support initiative by Dnyansangam Foundation, dedicated to empowering visually impaired students and fostering an inclusive society. Many specially-abled students, especially those with visual impairments, face significant challenges in accessing educational resources, finding writers for exams, and participating in social and career-building activities. These obstacles often lead to limited academic and professional opportunities, affecting their confidence and future prospects.</p>
+            <p>Drushtivishwa addresses these challenges by providing writer assistance, skill development programs, accessibility resources, and confidence-building events. The initiative not only helps visually impaired students successfully complete their education but also works toward changing societal perceptions and promoting a culture of inclusivity and equal opportunities.</p>
+        </div>
+    </section>
+
+    <!-- Objectives Section -->
+    <section>
+        <div class="container">
+            <h2>Objectives</h2>
+            <ul class="objectives">
+                <li>Providing writer assistance to visually impaired students for exams, helping them pursue their education without limitations.</li>
+                <li>Ensuring access to educational materials such as audiobooks, digital resources, and Braille materials.</li>
+                <li>Building confidence and social inclusion through events, competitions, and interactive programs.</li>
+                <li>Offering skill development training to prepare visually impaired students for career opportunities.</li>
+                <li>Raising awareness in society about the importance of inclusivity and breaking stereotypes regarding disability.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Key Activities Section -->
+    <section>
+        <div class="container">
+            <h2>Key Activities</h2>
+            <div class="activities">
+                <h3>1. Writer Assistance Program</h3>
+                <p>One of the biggest challenges for visually impaired students is the lack of writer support during exams. Drushtivishwa addresses this by:</p>
+                <ul>
+                    <li>Connecting volunteer writers with visually impaired students.</li>
+                    <li>Organizing training sessions for volunteers to assist students effectively.</li>
+                    <li>Advocating for long-term solutions and policy changes.</li>
+                </ul>
+
+                <h3>2. Skill Development & Career Readiness</h3>
+                <p>Beyond education, visually impaired students face challenges in employment due to limited access to skill-building opportunities. Drushtivishwa helps them:</p>
+                <ul>
+                    <li>Gain digital literacy, enabling them to use assistive technology for learning.</li>
+                    <li>Develop communication and leadership skills.</li>
+                    <li>Explore career opportunities and financial independence.</li>
+                </ul>
+
+                <h3>3. Inclusion Events & Talent Showcases</h3>
+                <p>To encourage participation and self-expression, Drushtivishwa organizes:</p>
+                <ul>
+                    <li>Cultural events showcasing talents in music, storytelling, and poetry.</li>
+                    <li>Confidence-building competitions to improve stage presence.</li>
+                    <li>Networking events connecting students with professionals and educators.</li>
+                </ul>
+
+                <h3>4. Awareness & Advocacy Programs</h3>
+                <p>Drushtivishwa works on:</p>
+                <ul>
+                    <li>Public awareness campaigns to educate about inclusivity.</li>
+                    <li>Workshops in schools and colleges to promote disability advocacy.</li>
+                    <li>Collaboration with institutions to improve accessibility.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impact Section -->
+    <section>
+        <div class="container impact">
+            <h2>Impact & Achievements</h2>
+            <ul>
+                <li>✅ Successfully complete their college degrees with the support of writers and accessible materials.</li>
+                <li>✅ Develop confidence and self-reliance to participate in academic and social activities.</li>
+                <li>✅ Explore career opportunities, ensuring disability isn't a barrier to success.</li>
+                <li>✅ Change perceptions about disability and foster a more inclusive society.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Gallery Section (Optional) -->
+    <section>
+        <div class="container gallery">
+            <img src="image1.jpg" alt="Student at Event">
+            <img src="image2.jpg" alt="Writer Assistance">
+            <img src="image3.jpg" alt="Skill Development Session">
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="cta">
+        <h2>How You Can Get Involved</h2>
+        <ul>
+            <li>📌 Become a Writer Assistant – Help visually impaired students during exams.</li>
+            <li>📌 Donate Educational Resources – Contribute audiobooks, Braille materials, or digital tools.</li>
+            <li>📌 Support Inclusion Initiatives – Participate in awareness campaigns and advocacy programs.</li>
+            <li>📌 Collaborate with Us – Partner with the foundation to expand outreach and create inclusive opportunities.</li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p><center>&copy; 2025 Dnyansangam Foundation | All Rights Reserved</center></p>
+    </footer>
+
+    <!-- Bootstrap JS and Dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
